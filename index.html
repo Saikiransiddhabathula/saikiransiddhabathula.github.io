@@ -23,6 +23,10 @@
   <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.16.0/devicon.min.css">
+
+
+
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
 
@@ -124,81 +128,518 @@
 
   <main id="main">
 
-    <!-- ======= About Section ======= -->
-    <section id="about" class="about-mf sect-pt4 route">
-      <div class="container">
-        <div class="row">
-          <div class="col-sm-12">
-            <div class="box-shadow-full">
-              <div class="row">
-                <div class="col-md-6">
-                  <div class="row">
-                    <div class="col-sm-6 col-md-5">
-                      <div class="about-img">
-                        <img src="assets/img/portfolio_profile_picture.png" class="img-fluid rounded b-shadow-a" alt="">
-                      </div>
-                    </div>
-                    <div class="col-sm-6 col-md-7">
-                      <div class="about-info">
-                        <p><span class="title-s">Name: </span> <span>Sai Kiran Siddhabathula</span></p>
-                        <p><span class="title-s">Profile: </span> <span>Big Data developer</span></p>
-                        <p><span class="title-s">Email: </span> <span>saikiransiddhabathula@gmail.com</span></p>
-                        <p><span class="title-s">Phone: </span> <span>(902) 931-0478</span></p>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="skill-mf">
-                    <p class="title-s">Skills</p>
-                    <canvas id="skillsChart" width="400" height="400"></canvas>
-                    <!-- The previous skill bars can be removed if you prefer the radar chart only -->
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="about-me pt-4 pt-md-0">
-                    <div class="title-box-2">
-                      <h5 class="title-left">
-                        About me
-                      </h5>
-                    </div>
-                    <p class="lead">
-                    I'm Sai Kiran Siddhabathula — a software engineer with a strong data edge. 
-                      I specialize in building scalable backend systems, automating data workflows, 
-                      and delivering insights that drive product and business decisions.
-                    </p>
-
-                    <p class="lead">
-                    With 4+ years of experience spanning software development, data engineering, and analytics, 
-                      I’ve contributed to everything from ETL pipelines and real-time dashboards to full-stack applications and cloud-native infrastructure. 
-                      I’ve shipped production code that serves both users and decision-makers.
-                    </p>
-
-                    <p class="lead">
-                    I’m currently finishing my Master’s in Applied Computer Science at St. Francis Xavier University (Canada) and 
-                      have worked in cross-functional teams across India and North America. I thrive on solving complex problems, 
-                      writing clean code, and making data actually useful.
-                    </p>
-
-                    <p class="lead">
-                    I'm not just looking for a job — I'm looking to join a team where engineering is valued, learning is constant, 
-                      and software makes a real difference. If that sounds like your company, let’s talk.
-                    </p>
-                  </div>
-                </div>
+   <!-- ======= About Section (compact) ======= -->
+<section id="about" class="about-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="box-shadow-full about-compact">
+          <div class="row gx-4 gy-4 align-items-start">
+            <div class="col-lg-7">
+              <div class="title-box-2 mb-3">
+                <h5 class="title-left m-0">About</h5>
               </div>
-            </div>
-          </div>
+
+              <h2 class="about-headline">
+                Software Engineer with a data backbone — I build scalable backends, automate data workflows, and turn raw data into decisions.
+              </h2>
+
+              <p class="lead mb-3">
+                4+ years across software development, data engineering, and analytics. I’ve shipped ETL pipelines, real-time dashboards,
+                full-stack features, and cloud-native services used by both users and decision-makers.
+              </p>
+
+              <p class="lead mb-4">
+                Master’s in Applied Computer Science from St. Francis Xavier University (Canada). 
+                Worked with cross-functional teams in India and North America.
+                I care about clean code, measurable impact, and making data actually useful.
+              </p>
+
+              <div class="d-flex flex-wrap gap-2 mb-4">
+                <span class="pill">Backend & APIs</span>
+                <span class="pill">Data Pipelines</span>
+                <span class="pill">Streaming & Batch</span>
+                <span class="pill">Cloud (AWS/Azure/GCP)</span>
+                <span class="pill">SQL/Python</span>
+                <span class="pill">Java & Spring Boot</span>
+                <span class="pill">ETL Development</span>
+                <span class="pill">Frontend (React/Angular)</span>
+                <span class="pill">Visualization (Tableau/Power BI)</span>
+              </div>
+
+              <div class="d-flex flex-wrap gap-3">
+                <a href="#work" class="btn btn-primary btn-sm px-3">View Projects</a>
+                <a href="assets/resume/SaiKiran_Resume.pdf" class="btn btn-outline-primary btn-sm px-3" target="_blank" rel="noopener">Download Resume</a>
+                <a href="#contact" class="btn btn-link btn-sm px-0">Contact me →</a>
+              </div>
+              </div>
+
+              <div class="col-lg-5">
+                <div class="kpi-grid">
+                  <div class="kpi">
+                    <div class="kpi-num">4+ yrs</div>
+                    <div class="kpi-label">Engineering experience</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="kpi-num">10–90%+</div>
+                    <div class="kpi-label">Latency cuts & cost wins*</div>
+                  </div>
+                  <div class="kpi">
+                    <div class="kpi-num">ETL → ML</div>
+                    <div class="kpi-label">End-to-end delivery</div>
+                  </div>
+                  <div class="kpi note">
+                    <small>Representative outcomes from pipeline optimizations, API tuning, and cloud cost management.</small>
+                  </div>
+                </div>
+
+                <ul class="check-list mt-3">
+                  <li>Built pipelines powering real-time dashboards and reporting.</li>
+                  <li>Designed APIs and backend services for high-volume data workloads.</li>
+                  <li>Delivered Java-based applications and microservices for enterprise use.</li>
+                  <li>Developed and deployed responsive UIs with React and Angular.</li>
+                  <li>Deployed solutions on cloud; instrumented, monitored, and iterated.</li>
+                </ul>
+              </div>
+          </div> <!-- row -->
         </div>
       </div>
-    </section><!-- End About Section -->
+    </div>
+  </div>
+</section>
+<!-- End About Section -->
 
-   <!-- ======= Professional Experience Section ======= -->
+
+<!-- ======= Skills Section ======= -->
+<section id="skills" class="skills-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="skills-surface">
+          <div class="section-head">
+            <span class="emoji">🛠️</span>
+            <h3 class="title-a m-0">Technical Skills</h3>
+          </div>
+<div class="row g-3 g-md-4">
+          <!-- Python -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Python">
+      <i class="devicon-python-plain colored skill-icon"></i>
+      <span class="skill-label">Python</span>
+    </div>
+  </div>
+
+  <!-- C/C++ -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="C/C++">
+      <i class="devicon-c-plain colored skill-icon" style="margin-right:6px"></i>
+      <i class="devicon-cplusplus-plain colored skill-icon" style="font-size:28px"></i>
+      <span class="skill-label">C/C++</span>
+    </div>
+  </div>
+
+  <!-- SQL (generic) -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="SQL">
+      <div class="skill-badge">SQL</div>
+      <span class="skill-label">SQL</span>
+    </div>
+  </div>
+
+  <!-- SSIS -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="SSIS">
+      <div class="skill-badge">SSIS</div>
+      <span class="skill-label">SSIS</span>
+    </div>
+  </div>
+
+  <!-- Java -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Java">
+      <i class="devicon-java-plain colored skill-icon"></i>
+      <span class="skill-label">Java</span>
+    </div>
+  </div>
+
+  <!-- JavaScript -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="JavaScript">
+      <i class="devicon-javascript-plain colored skill-icon"></i>
+      <span class="skill-label">JavaScript</span>
+    </div>
+  </div>
+
+  <!-- HTML/CSS -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="HTML/CSS">
+      <i class="devicon-html5-plain colored skill-icon" style="margin-right:6px"></i>
+      <i class="devicon-css3-plain colored skill-icon" style="font-size:28px"></i>
+      <span class="skill-label">HTML/CSS</span>
+    </div>
+  </div>
+
+  <!-- R -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="R">
+      <i class="devicon-r-plain colored skill-icon"></i>
+      <span class="skill-label">R</span>
+    </div>
+  </div>
+
+  <!-- Apache Spark -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Apache Spark">
+      <i class="devicon-apachespark-plain colored skill-icon"></i>
+      <span class="skill-label">Apache Spark</span>
+    </div>
+  </div>
+
+  <!-- Hadoop -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Hadoop">
+      <i class="devicon-hadoop-plain colored skill-icon"></i>
+      <span class="skill-label">Hadoop</span>
+    </div>
+  </div>
+
+  <!-- TensorFlow -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="TensorFlow">
+      <i class="devicon-tensorflow-original skill-icon"></i>
+      <span class="skill-label">TensorFlow</span>
+    </div>
+  </div>
+
+  <!-- PyTorch -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="PyTorch">
+      <i class="devicon-pytorch-original skill-icon"></i>
+      <span class="skill-label">PyTorch</span>
+    </div>
+  </div>
+
+  <!-- Hive -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Hive">
+      <div class="skill-badge">Hive</div>
+      <span class="skill-label">Hive</span>
+    </div>
+  </div>
+
+  <!-- MapReduce -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="MapReduce">
+      <div class="skill-badge">MR</div>
+      <span class="skill-label">MapReduce</span>
+    </div>
+  </div>
+
+  <!-- Git -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Git">
+      <i class="devicon-git-plain colored skill-icon"></i>
+      <span class="skill-label">Git</span>
+    </div>
+  </div>
+
+  <!-- Google Cloud Platform -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Google Cloud Platform">
+      <i class="devicon-googlecloud-plain colored skill-icon"></i>
+      <span class="skill-label">Google Cloud Platform</span>
+    </div>
+  </div>
+
+  <!-- VS Code -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="VS Code">
+      <i class="devicon-vscode-plain colored skill-icon"></i>
+      <span class="skill-label">VS Code</span>
+    </div>
+  </div>
+
+  <!-- Visual Studio -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Visual Studio">
+      <i class="devicon-visualstudio-plain colored skill-icon"></i>
+      <span class="skill-label">Visual Studio</span>
+    </div>
+  </div>
+
+  <!-- PyCharm -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="PyCharm">
+      <i class="devicon-pycharm-plain colored skill-icon"></i>
+      <span class="skill-label">PyCharm</span>
+    </div>
+  </div>
+
+  <!-- IntelliJ -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="IntelliJ">
+      <i class="devicon-intellij-plain colored skill-icon"></i>
+      <span class="skill-label">IntelliJ</span>
+    </div>
+  </div>
+
+  <!-- SSMS -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="SSMS">
+      <i class="devicon-microsoftsqlserver-plain colored skill-icon"></i>
+      <span class="skill-label">SSMS</span>
+    </div>
+  </div>
+
+  <!-- IBM Cognos -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="IBM Cognos">
+      <div class="skill-badge">Cognos</div>
+      <span class="skill-label">IBM Cognos</span>
+    </div>
+  </div>
+
+  <!-- Tableau -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Tableau">
+      <i class="devicon-tableau-plain colored skill-icon"></i>
+      <span class="skill-label">Tableau</span>
+    </div>
+  </div>
+
+  <!-- PowerBI -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="PowerBI">
+      <i class="devicon-powerbi-plain colored skill-icon"></i>
+      <span class="skill-label">PowerBI</span>
+    </div>
+  </div>
+
+  <!-- pandas -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="pandas">
+      <i class="devicon-pandas-plain colored skill-icon"></i>
+      <span class="skill-label">pandas</span>
+    </div>
+  </div>
+
+  <!-- NumPy -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="NumPy">
+      <i class="devicon-numpy-original skill-icon"></i>
+      <span class="skill-label">NumPy</span>
+    </div>
+  </div>
+
+  <!-- NLTK -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="NLTK">
+      <div class="skill-badge">NLTK</div>
+      <span class="skill-label">NLTK</span>
+    </div>
+  </div>
+
+  <!-- OpenCV -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="OpenCV">
+      <i class="devicon-opencv-plain colored skill-icon"></i>
+      <span class="skill-label">OpenCV</span>
+    </div>
+  </div>
+
+  <!-- scikit-learn -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="scikit-learn">
+      <i class="devicon-scikitlearn-plain colored skill-icon"></i>
+      <span class="skill-label">scikit-learn</span>
+    </div>
+  </div>
+
+  <!-- Matplotlib -->
+  <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+    <div class="skill-card" aria-label="Matplotlib">
+      <div class="skill-badge">plt</div>
+      <span class="skill-label">Matplotlib</span>
+    </div>
+  </div>
+
+            <!-- Card -->
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Python">
+                <i class="devicon-python-plain colored skill-icon"></i>
+                <span class="skill-label">Python</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Java">
+                <i class="devicon-java-plain colored skill-icon"></i>
+                <span class="skill-label">Java</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="JavaScript">
+                <i class="devicon-javascript-plain colored skill-icon"></i>
+                <span class="skill-label">JavaScript</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="TypeScript">
+                <i class="devicon-typescript-plain colored skill-icon"></i>
+                <span class="skill-label">TypeScript</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="C#">
+                <i class="devicon-csharp-plain colored skill-icon"></i>
+                <span class="skill-label">C#</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Angular">
+                <i class="devicon-angularjs-plain colored skill-icon"></i>
+                <span class="skill-label">Angular</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="HTML5">
+                <i class="devicon-html5-plain colored skill-icon"></i>
+                <span class="skill-label">HTML5</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="CSS3">
+                <i class="devicon-css3-plain colored skill-icon"></i>
+                <span class="skill-label">CSS3</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Node.js">
+                <i class="devicon-nodejs-plain colored skill-icon"></i>
+                <span class="skill-label">Node.js</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label=".NET">
+                <i class="devicon-dotnetcore-plain colored skill-icon"></i>
+                <span class="skill-label">.NET</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Flask">
+                <i class="devicon-flask-original skill-icon"></i>
+                <span class="skill-label">Flask</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Django">
+                <i class="devicon-django-plain skill-icon"></i>
+                <span class="skill-label">Django</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="PostgreSQL">
+                <i class="devicon-postgresql-plain colored skill-icon"></i>
+                <span class="skill-label">PostgreSQL</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="MySQL">
+                <i class="devicon-mysql-plain colored skill-icon"></i>
+                <span class="skill-label">MySQL</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="MongoDB">
+                <i class="devicon-mongodb-plain colored skill-icon"></i>
+                <span class="skill-label">MongoDB</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Machine Learning">
+                <img src="assets/img/skills/ml.svg" alt="" class="skill-img">
+                <span class="skill-label">Machine Learning</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Data Analytics">
+                <img src="assets/img/skills/data-analytics.svg" alt="" class="skill-img">
+                <span class="skill-label">Data Analytics</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Scikit-learn">
+                <i class="devicon-scikitlearn-plain colored skill-icon"></i>
+                <span class="skill-label">Scikit-learn</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Microsoft Azure">
+                <i class="devicon-azure-plain colored skill-icon"></i>
+                <span class="skill-label">Microsoft Azure</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="AWS">
+                <i class="devicon-amazonwebservices-plain colored skill-icon"></i>
+                <span class="skill-label">AWS</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Docker">
+                <i class="devicon-docker-plain colored skill-icon"></i>
+                <span class="skill-label">Docker</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Git">
+                <i class="devicon-git-plain colored skill-icon"></i>
+                <span class="skill-label">Git</span>
+              </div>
+            </div>
+
+            <div class="col-6 col-sm-4 col-md-3 col-lg-2">
+              <div class="skill-card" aria-label="Postman">
+                <i class="devicon-postman-plain colored skill-icon"></i>
+                <span class="skill-label">Postman</span>
+              </div>
+            </div>
+          </div><!-- /row -->
+        </div><!-- /skills-surface -->
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Skills Section -->
+
+<!-- ======= Professional Experience Section ======= -->
 <section id="services" class="services-mf route">
   <div class="container">
     <div class="row">
       <div class="col-sm-12">
         <div class="title-box text-center">
           <h3 class="title-a">Professional Experience</h3>
-          <p class="subtitle-a">Where I've built scalable systems, shipped real-world products, and made data work harder.</p>
+          <p class="subtitle-a">Roles where I’ve contributed to building, delivering, and optimizing software and data solutions.</p>
           <div class="line-mf"></div>
         </div>
       </div>
@@ -206,112 +647,128 @@
 
     <div class="row">
 
+      <!-- Website Coordinator @ StFX SU -->
       <div class="col-md-4">
         <div class="service-box">
           <div class="service-ico">
-            <img src="assets/img/Studentsunion-logo.jpg" alt="StFX" style="width:48px; height:48px; border-radius:50%; object-fit:contain;">
+            <img
+              src="https://logo.clearbit.com/stfx.ca"
+              alt="St. Francis Xavier University / Students' Union"
+              width="48" height="48" loading="lazy"
+              style="width:48px;height:48px;border-radius:50%;object-fit:contain;"
+            >
           </div>
           <div class="service-content">
             <h2 class="s-title">Website Coordinator @ StFX SU</h2>
             <p class="s-description text-left">
-              <ul>
-                <li>Managed content across multiple student websites and portals using CMS tools.</li>
-                <li>Improved mobile SEO performance by 25% through metadata tuning and accessibility upgrades.</li>
-              </ul>
+              Oversaw updates and content management across student-facing platforms, ensuring accuracy, accessibility, and a consistent digital presence.
             </p>
-            <small class="text-muted">Aug 2024 – May 2025 | Nova Scotia, Canada</small>
+            <small class="text-muted">Aug 2024 – May 2025 · Nova Scotia, Canada</small>
           </div>
         </div>
       </div>
 
+      <!-- TA – Big Data @ StFX -->
       <div class="col-md-4">
         <div class="service-box">
           <div class="service-ico">
-            <img src="assets/img/StFx-logo.jpeg" alt="StFX" style="width:48px; height:48px; border-radius:50%; object-fit:contain;">
+            <img
+              src="https://logo.clearbit.com/stfx.ca"
+              alt="St. Francis Xavier University"
+              width="48" height="48" loading="lazy"
+              style="width:48px;height:48px;border-radius:50%;object-fit:contain;"
+            >
           </div>
           <div class="service-content">
             <h2 class="s-title">TA – Big Data @ St. Francis Xavier University</h2>
             <p class="s-description text-left">
-              <ul>
-                <li>Led labs and tutorials on Spark, MapReduce, and distributed processing frameworks.</li>
-                <li>Assisted 80+ students with debugging, code reviews, and project planning.</li>
-              </ul>
+              Supported labs, tutorials, and project work in large-scale data processing, helping students apply concepts in distributed computing and analytics.
             </p>
-            <small class="text-muted">Sep 2024 – Dec 2024 | Nova Scotia, Canada</small>
+            <small class="text-muted">Sep 2024 – Dec 2024 · Nova Scotia, Canada</small>
           </div>
         </div>
       </div>
 
+      <!-- Specialist Programmer @ Infosys -->
       <div class="col-md-4">
         <div class="service-box">
           <div class="service-ico">
-            <img src="assets/img/infosys-logo.png" alt="Infosys" style="width:48px; height:48px; border-radius:50%; object-fit:contain;">
+            <img
+              src="https://logo.clearbit.com/infosys.com"
+              alt="Infosys"
+              width="48" height="48" loading="lazy"
+              style="width:48px;height:48px;border-radius:50%;object-fit:contain;"
+            >
           </div>
           <div class="service-content">
             <h2 class="s-title">Specialist Programmer @ Infosys</h2>
             <p class="s-description text-left">
-              <ul>
-                <li>Built automated ETL pipelines using Python, SQL, and Airflow, reducing data latency by 45%.</li>
-                <li>Deployed microservices with Docker & Kubernetes, improving API scalability and uptime.</li>
-                <li>Optimized Snowflake workloads, cutting dashboard load times by over 60%.</li>
-              </ul>
+              Contributed to designing, developing, and delivering scalable software and data solutions across multiple client projects.
             </p>
-            <small class="text-muted">May 2022 – Aug 2023 | Hyderabad, India</small>
+            <small class="text-muted">May 2022 – Aug 2023 · Hyderabad, India</small>
           </div>
         </div>
       </div>
 
+      <!-- Systems Engineer @ Infosys -->
       <div class="col-md-4">
         <div class="service-box">
           <div class="service-ico">
-            <img src="assets/img/infosys-logo.png" alt="Infosys" style="width:48px; height:48px; border-radius:50%; object-fit:contain;">
+            <img
+              src="https://logo.clearbit.com/infosys.com"
+              alt="Infosys"
+              width="48" height="48" loading="lazy"
+              style="width:48px;height:48px;border-radius:50%;object-fit:contain;"
+            >
           </div>
           <div class="service-content">
             <h2 class="s-title">Systems Engineer @ Infosys</h2>
             <p class="s-description text-left">
-              <ul>
-                <li>Built PySpark pipelines processing 5M+ daily records in distributed environments.</li>
-                <li>Implemented PostgreSQL partitioning/indexing to reduce query latency by 60%.</li>
-                <li>Supported fraud detection systems for financial services clients with real-time analytics.</li>
-              </ul>
+              Delivered backend, data processing, and integration solutions, collaborating with cross-functional teams to meet client objectives.
             </p>
-            <small class="text-muted">Jul 2021 – May 2022 | Hyderabad, India</small>
+            <small class="text-muted">Jul 2021 – May 2022 · Hyderabad, India</small>
           </div>
         </div>
       </div>
 
+      <!-- Software Engineering Intern @ Infosys -->
       <div class="col-md-4">
         <div class="service-box">
           <div class="service-ico">
-            <img src="assets/img/infosys-logo.png" alt="Infosys" style="width:48px; height:48px; border-radius:50%; object-fit:contain;">
+            <img
+              src="https://logo.clearbit.com/infosys.com"
+              alt="Infosys"
+              width="48" height="48" loading="lazy"
+              style="width:48px;height:48px;border-radius:50%;object-fit:contain;"
+            >
           </div>
           <div class="service-content">
             <h2 class="s-title">Software Engineering Intern @ Infosys</h2>
             <p class="s-description text-left">
-              <ul>
-                <li>Created internal QA dashboards using Flask and Chart.js to visualize test coverage.</li>
-                <li>Automated deployments using Jenkins, saving 6+ dev hours weekly.</li>
-              </ul>
+              Assisted in the development and deployment of internal tools, gaining hands-on experience across the software development lifecycle.
             </p>
-            <small class="text-muted">Sep 2020 – Jun 2021 | Hyderabad, India</small>
+            <small class="text-muted">Sep 2020 – Jun 2021 · Hyderabad, India</small>
           </div>
         </div>
       </div>
 
+      <!-- SME – Computer Science @ Chegg -->
       <div class="col-md-4">
         <div class="service-box">
           <div class="service-ico">
-            <img src="assets/img/Chegg-logo.jpg" alt="Chegg" style="width:48px; height:48px; border-radius:50%; object-fit:contain;">
+            <img
+              src="https://logo.clearbit.com/chegg.com"
+              alt="Chegg"
+              width="48" height="48" loading="lazy"
+              style="width:48px;height:48px;border-radius:50%;object-fit:contain;"
+            >
           </div>
           <div class="service-content">
             <h2 class="s-title">SME – Computer Science @ Chegg</h2>
             <p class="s-description text-left">
-              <ul>
-                <li>Answered 1200+ questions in Data Structures, Algorithms, and DBMS with 95%+ accuracy.</li>
-                <li>Mentored 5+ junior SMEs to improve clarity, depth, and response turnaround.</li>
-              </ul>
+              Provided subject matter expertise in computer science, supporting learners with accurate, clear, and well-structured guidance.
             </p>
-            <small class="text-muted">Mar 2021 – Apr 2024 | Remote</small>
+            <small class="text-muted">Mar 2021 – Apr 2024 · Remote</small>
           </div>
         </div>
       </div>
@@ -338,84 +795,102 @@
             </div>
           </div>
         </div>
-        <div class="row">
-          <!-- Add project details here based on the GitHub repositories -->
-          <!-- Example Project -->
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="https://github.com/Saikiransiddhabathula/Mobile-Controlled-Mouse" target="_blank">
-                <div class="work-img">
-                  <img src="assets/img/work-1.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Mobile Controlled Mouse </h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Android</span> / <span class="w-date">2020</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="bi bi-plus-circle"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
-          </div>
+          <div class="row">
+    <!-- Filters -->
+    <div class="col-12">
+      <div class="project-filters" aria-label="Project filters">
+        <button class="project-filter active" data-tag="all">All</button>
+        <button class="project-filter" data-tag="data">Data Eng</button>
+        <button class="project-filter" data-tag="backend">Backend</button>
+        <button class="project-filter" data-tag="java">Java</button>
+        <button class="project-filter" data-tag="ml">ML/AI</button>
+        <button class="project-filter" data-tag="android">Android</button>
+        <button class="project-filter" data-tag="algo">Algorithms</button>
+      </div>
+    </div>
 
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="https://github.com/Saikiransiddhabathula/Credit-Card-Churn-Prediction-and-Retention-Strategies" target="_blank">
-                <div class="work-img">
-                  <img src="assets/img/work-2.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Big Data Project</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Big Data</span> / <span class="w-date">2023</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="bi bi-plus-circle"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+    <!-- Project: Mobile Controlled Mouse -->
+    <div class="col-md-4 project-item" data-tags="android frontend">
+      <div class="project-card">
+        <a href="https://github.com/Saikiransiddhabathula/Mobile-Controlled-Mouse" target="_blank" rel="noopener" aria-label="Open GitHub: Mobile Controlled Mouse">
+          <div class="project-thumb">
+            <img src="assets/img/work-1.jpg" alt="Mobile Controlled Mouse project thumbnail" loading="lazy">
           </div>
-
-          <div class="col-md-4">
-            <div class="work-box">
-              <a href="https://github.com/Saikiransiddhabathula/Solving-N-Queens-with-Constraint-Satisfaction" target="_blank">
-                <div class="work-img">
-                  <img src="assets/img/work-3.jpg" alt="" class="img-fluid">
-                </div>
-                <div class="work-content">
-                  <div class="row">
-                    <div class="col-sm-8">
-                      <h2 class="w-title">Solving N-Queens with Constraint Satisfaction</h2>
-                      <div class="w-more">
-                        <span class="w-ctegory">Constraint Satisfaction</span> / <span class="w-date">2024</span>
-                      </div>
-                    </div>
-                    <div class="col-sm-4">
-                      <div class="w-like">
-                        <span class="bi bi-plus-circle"></span>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </a>
-            </div>
+        </a>
+        <div class="project-body">
+          <h3 class="project-title">Mobile Controlled Mouse</h3>
+          <div class="project-meta">
+            <span class="tag">Android</span>
+            <span class="tag">Sensors</span>
+            <span>2020</span>
+            <span class="gh-badges">
+              <img src="https://img.shields.io/github/stars/Saikiransiddhabathula/Mobile-Controlled-Mouse?style=social" alt="GitHub stars">
+            </span>
           </div>
+          <div class="project-ctas">
+            <a class="btn-repo" href="https://github.com/Saikiransiddhabathula/Mobile-Controlled-Mouse" target="_blank" rel="noopener">Repo</a>
+            <!-- Add a Demo link if you deploy it -->
+          </div>
+        </div>
+      </div>
+    </div>
 
+    <!-- Project: Credit Card Churn -->
+    <div class="col-md-4 project-item" data-tags="data ml backend">
+      <div class="project-card">
+        <a href="https://github.com/Saikiransiddhabathula/Credit-Card-Churn-Prediction-and-Retention-Strategies" target="_blank" rel="noopener" aria-label="Open GitHub: Credit Card Churn">
+          <div class="project-thumb">
+            <img src="assets/img/work-2.jpg" alt="Credit Card Churn project thumbnail" loading="lazy">
+          </div>
+        </a>
+        <div class="project-body">
+          <h3 class="project-title">Credit Card Churn Prediction & Retention</h3>
+          <div class="project-meta">
+            <span class="tag">Big Data</span>
+            <span class="tag">ML</span>
+            <span class="tag">ETL</span>
+            <span>2023</span>
+            <span class="gh-badges">
+              <img src="https://img.shields.io/github/stars/Saikiransiddhabathula/Credit-Card-Churn-Prediction-and-Retention-Strategies?style=social" alt="GitHub stars">
+            </span>
+          </div>
+          <div class="project-ctas">
+            <a class="btn-repo" href="https://github.com/Saikiransiddhabathula/Credit-Card-Churn-Prediction-and-Retention-Strategies" target="_blank" rel="noopener">Repo</a>
+            <!-- If you host a demo: -->
+            <!-- <a class="btn-demo" href="https://your-demo-url" target="_blank" rel="noopener">Demo</a> -->
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Project: N-Queens CSP -->
+    <div class="col-md-4 project-item" data-tags="algo java backend">
+      <div class="project-card">
+        <a href="https://github.com/Saikiransiddhabathula/Solving-N-Queens-with-Constraint-Satisfaction" target="_blank" rel="noopener" aria-label="Open GitHub: N-Queens CSP">
+          <div class="project-thumb">
+            <img src="assets/img/work-3.jpg" alt="N-Queens CSP project thumbnail" loading="lazy">
+          </div>
+        </a>
+        <div class="project-body">
+          <h3 class="project-title">N-Queens via Constraint Satisfaction</h3>
+          <div class="project-meta">
+            <span class="tag">Algorithms</span>
+            <span class="tag">CSP</span>
+            <span class="tag">Java</span>
+            <span>2024</span>
+            <span class="gh-badges">
+              <img src="https://img.shields.io/github/stars/Saikiransiddhabathula/Solving-N-Queens-with-Constraint-Satisfaction?style=social" alt="GitHub stars">
+            </span>
+          </div>
+          <div class="project-ctas">
+            <a class="btn-repo" href="https://github.com/Saikiransiddhabathula/Solving-N-Queens-with-Constraint-Satisfaction" target="_blank" rel="noopener">Repo</a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- Duplicate the pattern for more projects; set data-tags accordingly -->
+        </div>
           <!-- Add more projects as needed -->
         </div>
       </div>
@@ -423,233 +898,332 @@
 
 
   <!-- ======= Certifications Section ======= -->
-  <section id="certifications" class="certifications-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Certifications
-            </h3>
-            <p class="subtitle-a">
-              A showcase of my professional certifications.
-            </p>
-            <div class="line-mf"></div>
-          </div>
-        </div>
-      </div>
-      <div class="row">
-        <div class="swiper-container">
-          <div class="swiper-wrapper">
-            <!-- Example Certification -->
-            <div class="swiper-slide col-md-4">
-              <div class="certification-box">
-                <div class="certification-img">
-                  <img src="assets/img/Azure Fundamentals.jpg" alt="Certification 1" class="img-fluid">
-                </div>
-                <div class="certification-content">
-                  <h2 class="c-title">Azure Fundamentals AZ-900</h2>
-                  <p class="c-description text-center">
-                    Achieving the Microsoft Certified: Azure Fundamentals certification signifies a robust understanding of cloud services and how 
-                    Microsoft Azure delivers these services. This foundational certification highlights my ability to work with cloud-based solutions, 
-                    showcasing a solid grasp of core Azure services, security, compliance, and cost management. It's an essential stepping stone for 
-                    advancing a career in cloud computing.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <!-- Add more certifications as needed -->
-            <div class="swiper-slide col-md-4">
-              <div class="certification-box">
-                <div class="certification-img">
-                  <img src="assets/img/Machine Learning Training.jpg" alt="Certification 2" class="img-fluid">
-                </div>
-                <div class="certification-content">
-                  <h2 class="c-title">Machine Learning Training</h2>
-                  <p class="c-description text-center">
-                    Completing the Internshala Machine Learning Training with a stellar 97% score demonstrates my proficiency in machine learning. 
-                    This rigorous six-week program covered essential topics like Python programming, data manipulation, model building, and advanced 
-                    techniques, preparing me to excel in the dynamic field of machine learning.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide col-md-4">
-              <div class="certification-box">
-                <div class="certification-img">
-                  <img src="assets/img/Chegg Honor Code.jpg" alt="Certification 1" class="img-fluid">
-                </div>
-                <div class="certification-content">
-                  <h2 class="c-title">Chegg Honor Code</h2>
-                  <p class="c-description text-center">
-                    Earning the Chegg Honor Code certification reflects my commitment to academic integrity and ethical conduct. 
-                    This certification underscores my dedication to honesty in all academic endeavors, aligning with Chegg's mission 
-                    to foster a culture of trust and authenticity in education.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide col-md-4">
-              <div class="certification-box">
-                <div class="certification-img">
-                  <img src="assets/img/Python DSA.jpg" alt="Certification 1" class="img-fluid">
-                </div>
-                <div class="certification-content">
-                  <h2 class="c-title">Data Structures and Algorithms</h2>
-                  <p class="c-description text-center">
-                    Description or details about Certification 1.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide col-md-4">
-              <div class="certification-box">
-                <div class="certification-img">
-                  <img src="assets/img/Python.jpg" alt="Certification 1" class="img-fluid">
-                </div>
-                <div class="certification-content">
-                  <h2 class="c-title">Python</h2>
-                  <p class="c-description text-center">
-                    Description or details about Certification 1.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="swiper-slide col-md-4">
-              <div class="certification-box">
-                <div class="certification-img">
-                  <img src="assets/img/Rasa Chatbot.jpg" alt="Certification 1" class="img-fluid">
-                </div>
-                <div class="certification-content">
-                  <h2 class="c-title">Chatbot</h2>
-                  <p class="c-description text-center">
-                    Description or details about Certification 1.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-          <!-- Add Pagination if needed -->
-          <div class="swiper-pagination"></div>
-          <!-- Add Navigation if needed -->
-          <div class="swiper-button-next"></div>
-          <div class="swiper-button-prev"></div>
+<section id="certifications" class="certifications-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">CERTIFICATIONS</h3>
+          <p class="subtitle-a">A showcase of my professional certifications.</p>
+          <div class="line-mf"></div>
         </div>
       </div>
     </div>
-  </section><!-- End Certifications Section -->
 
-  <!-- ======= Blog Section ======= -->
-  <section id="blog" class="blog-mf sect-pt4 route">
-    <div class="container">
-      <div class="row">
-        <div class="col-sm-12">
-          <div class="title-box text-center">
-            <h3 class="title-a">
-              Blog
-            </h3>
-            <p class="subtitle-a">
-              Insights and articles on various tech topics.
-            </p>
-            <div class="line-mf"></div>
+    <!-- Swiper -->
+    <div class="swiper cert-swiper">
+      <div class="swiper-wrapper">
+
+        <!-- AZ-900 -->
+        <div class="swiper-slide">
+          <div class="certification-box">
+            <div class="certification-img">
+              <img src="https://logo.clearbit.com/microsoft.com" alt="Microsoft" loading="lazy">
+            </div>
+            <div class="c-content">
+              <h3 class="c-title">Microsoft Certified: Azure Fundamentals (AZ-900)</h3>
+              <div class="c-meta">
+                <span class="issuer">
+                  <img src="https://logo.clearbit.com/microsoft.com" alt=""> Microsoft
+                </span>
+                <span>Issued: 2023</span>
+              </div>
+              <button
+                class="btn-verify"
+                type="button"
+                data-bs-toggle="modal"
+                data-bs-target="#certModal"
+                data-image="assets/img/Azure_Fundamentals.jpg"
+                data-title="Azure Fundamentals (AZ-900)">
+                Verify
+              </button>
+            </div>
           </div>
         </div>
+
+        <!-- Internshala ML -->
+        <div class="swiper-slide">
+          <div class="certification-box">
+            <div class="certification-img">
+              <img src="https://logo.clearbit.com/internshala.com" alt="Internshala" loading="lazy">
+            </div>
+            <div class="c-content">
+              <h3 class="c-title">Machine Learning Training</h3>
+              <div class="c-meta">
+                <span class="issuer">
+                  <img src="https://logo.clearbit.com/internshala.com" alt=""> Internshala
+                </span>
+                <span>Score: 97%</span>
+                <span>Issued: 2020</span>
+              </div>
+              <button class="btn-verify" type="button"
+                data-bs-toggle="modal" data-bs-target="#certModal"
+                data-image="assets/img/Machine_Learning_Training.jpg"
+                data-title="Machine Learning Training (Internshala)">
+                Verify
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Chegg Honor Code -->
+        <div class="swiper-slide">
+          <div class="certification-box">
+            <div class="certification-img">
+              <img src="https://logo.clearbit.com/chegg.com" alt="Chegg" loading="lazy">
+            </div>
+            <div class="c-content">
+              <h3 class="c-title">Chegg Honor Code</h3>
+              <div class="c-meta">
+                <span class="issuer">
+                  <img src="https://logo.clearbit.com/chegg.com" alt=""> Chegg
+                </span>
+                <span>Issued: 2021</span>
+              </div>
+              <button class="btn-verify" type="button"
+                data-bs-toggle="modal" data-bs-target="#certModal"
+                data-image="assets/img/Chegg_Honor_Code.jpg"
+                data-title="Chegg Honor Code">
+                Verify
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Data Structures & Algorithms -->
+        <div class="swiper-slide">
+          <div class="certification-box">
+            <div class="certification-img">
+              <img src="https://logo.clearbit.com/udemy.com" alt="Udemy" loading="lazy">
+            </div>
+            <div class="c-content">
+              <h3 class="c-title">Data Structures & Algorithms</h3>
+              <div class="c-meta">
+                <span class="issuer">
+                  <img src="https://logo.clearbit.com/udemy.com" alt=""> Udemy
+                </span>
+                <span>Issued: 2020</span>
+              </div>
+              <button class="btn-verify" type="button"
+                data-bs-toggle="modal" data-bs-target="#certModal"
+                data-image="assets/img/Python_DSA.jpg"
+                data-title="Data Structures & Algorithms">
+                Verify
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Python -->
+        <div class="swiper-slide">
+          <div class="certification-box">
+            <div class="certification-img">
+              <img src="https://logo.clearbit.com/udemy.com" alt="Udemy" loading="lazy">
+            </div>
+            <div class="c-content">
+              <h3 class="c-title">Python Core and Advanced</h3>
+              <div class="c-meta">
+                <span class="issuer">
+                  <img src="https://logo.clearbit.com/udemy.com" alt=""> Udemy
+                </span>
+                <span>Issued: 2020</span>
+              </div>
+              <button class="btn-verify" type="button"
+                data-bs-toggle="modal" data-bs-target="#certModal"
+                data-image="assets/img/Python.jpg"
+                data-title="Python Certificate">
+                Verify
+              </button>
+            </div>
+          </div>
+        </div>
+
+        <!-- Rasa Chatbot -->
+        <div class="swiper-slide">
+          <div class="certification-box">
+            <div class="certification-img">
+              <img src="https://logo.clearbit.com/rasa.com" alt="Rasa" loading="lazy">
+            </div>
+            <div class="c-content">
+              <h3 class="c-title">Rasa Chatbot Development</h3>
+              <div class="c-meta">
+                <span class="issuer">
+                  <img src="https://logo.clearbit.com/rasa.com" alt=""> Rasa
+                </span>
+                <span>Issued: 2021</span>
+              </div>
+              <button class="btn-verify" type="button"
+                data-bs-toggle="modal" data-bs-target="#certModal"
+                data-image="assets/img/Rasa_Chatbot.jpg"
+                data-title="Rasa Chatbot Development">
+                Verify
+              </button>
+            </div>
+          </div>
+        </div>
+
       </div>
-      <div class="row">
 
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="assets/img/post-1.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Web Development</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">Latest Trends in Web Development</a></h3>
-              <p class="card-description">
-                An overview of the latest trends and technologies shaping the world of web development.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Sai Kiran Siddhabathula</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="bi bi-clock"></span> 10 Jan. 2024
-              </div>
-            </div>
+      <!-- Controls -->
+      <div class="cert-swiper-pagination"></div>
+      <div class="cert-swiper-prev"></div>
+      <div class="cert-swiper-next"></div>
+    </div>
+  </div>
+
+  <!-- Certification Viewer Modal -->
+  <div class="modal fade" id="certModal" tabindex="-1" aria-labelledby="certModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content" style="border-radius:16px; overflow:hidden;">
+        <div class="modal-header">
+          <h5 class="modal-title" id="certModalLabel">Certification</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body p-0">
+          <div class="cert-viewer">
+            <img id="certModalImg" alt="Certification image">
           </div>
         </div>
-
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="https://medium.com/@saikiransiddhabathula/big-data-processing-with-hadoop-542777ad7917"><img src="assets/img/post-2.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Big Data</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="https://medium.com/@saikiransiddhabathula/big-data-processing-with-hadoop-542777ad7917">Big Data Processing with Hadoop</a></h3>
-              <p class="card-description">
-                A deep dive into the world of big data processing using Hadoop and its ecosystem.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Sai Kiran Siddhabathula</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="bi bi-clock"></span> 05 Jan. 2024
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-md-4">
-          <div class="card card-blog">
-            <div class="card-img">
-              <a href="blog-single.html"><img src="assets/img/post-3.jpg" alt="" class="img-fluid"></a>
-            </div>
-            <div class="card-body">
-              <div class="card-category-box">
-                <div class="card-category">
-                  <h6 class="category">Machine Learning</h6>
-                </div>
-              </div>
-              <h3 class="card-title"><a href="blog-single.html">Introduction to Machine Learning</a></h3>
-              <p class="card-description">
-                A beginner's guide to understanding the fundamentals of machine learning and its applications.
-              </p>
-            </div>
-            <div class="card-footer">
-              <div class="post-author">
-                <a href="#">
-                  <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
-                  <span class="author">Sai Kiran Siddhabathula</span>
-                </a>
-              </div>
-              <div class="post-date">
-                <span class="bi bi-clock"></span> 02 Jan. 2024
-              </div>
-            </div>
-          </div>
-        </div>
-
       </div>
     </div>
-  </section><!-- End Blog Section -->
+  </div>
+</section>
+  <!-- End Certifications Section -->
+
+ <!-- ======= Blog Section ======= -->
+<section id="blog" class="blog-mf sect-pt4 route">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <div class="title-box text-center">
+          <h3 class="title-a">Blog</h3>
+          <p class="subtitle-a">Insights and articles on various tech topics.</p>
+          <div class="line-mf"></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row blog-grid">
+
+  <!-- Post: Full-Stack Trends (Medium) -->
+  <div class="col-md-4 d-flex">
+    <article class="card card-blog w-100">
+      <a class="card-img"
+         href="https://medium.com/@saikiransiddhabathula598/the-latest-trends-in-full-stack-web-development-7988681c65e0"
+         target="_blank" rel="noopener">
+        <span class="tag-ribbon">Web Dev</span>
+        <img src="assets/img/blog/fullstack.jpg"
+             alt="Full-stack web development trends" loading="lazy">
+      </a>
+      <div class="card-body">
+        <div class="card-category-box">
+          <div class="card-category"><h6 class="category">Web Development</h6></div>
+        </div>
+        <h3 class="card-title">
+          <a href="https://medium.com/@saikiransiddhabathula598/the-latest-trends-in-full-stack-web-development-7988681c65e0"
+             target="_blank" rel="noopener">The Latest Trends in Full-Stack Web Development</a>
+        </h3>
+        <p class="card-description">What’s shaping modern full-stack work—from backend architectures to frontend tooling and DX.</p>
+      </div>
+      <div class="card-footer">
+        <div class="post-author">
+          <a href="https://medium.com/@saikiransiddhabathula598" target="_blank" rel="noopener">
+            <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+            <span class="author">Sai Kiran Siddhabathula</span>
+          </a>
+        </div>
+        <div class="platform">
+          <img src="https://logo.clearbit.com/medium.com" alt="">
+          Medium
+        </div>
+      </div>
+      <div class="card-footer" style="padding-top:0;">
+        <a class="btn-read"
+           href="https://medium.com/@saikiransiddhabathula598/the-latest-trends-in-full-stack-web-development-7988681c65e0"
+           target="_blank" rel="noopener">Read</a>
+      </div>
+    </article>
+  </div>
+
+  <!-- Post: Big Data / Hadoop (Medium) -->
+  <div class="col-md-4 d-flex">
+    <article class="card card-blog w-100">
+      <a class="card-img"
+         href="https://medium.com/@saikiransiddhabathula/big-data-processing-with-hadoop-542777ad7917"
+         target="_blank" rel="noopener">
+        <span class="tag-ribbon">Big Data</span>
+        <img src="assets/img/blog/hadoop.jpg"
+             alt="Hadoop and big data processing" loading="lazy">
+      </a>
+      <div class="card-body">
+        <div class="card-category-box">
+          <div class="card-category"><h6 class="category">Big Data</h6></div>
+        </div>
+        <h3 class="card-title">
+          <a href="https://medium.com/@saikiransiddhabathula/big-data-processing-with-hadoop-542777ad7917"
+             target="_blank" rel="noopener">Big Data Processing with Hadoop</a>
+        </h3>
+        <p class="card-description">A quick tour of the Hadoop ecosystem and how to think about batch pipelines at scale.</p>
+      </div>
+      <div class="card-footer">
+        <div class="post-author">
+          <a href="https://medium.com/@saikiransiddhabathula" target="_blank" rel="noopener">
+            <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+            <span class="author">Sai Kiran Siddhabathula</span>
+          </a>
+        </div>
+        <div class="platform">
+          <img src="https://logo.clearbit.com/medium.com" alt="">
+          Medium
+        </div>
+      </div>
+      <div class="card-footer" style="padding-top:0;">
+        <a class="btn-read"
+           href="https://medium.com/@saikiransiddhabathula/big-data-processing-with-hadoop-542777ad7917"
+           target="_blank" rel="noopener">Read</a>
+      </div>
+    </article>
+  </div>
+
+  <!-- Post: Intro to Machine Learning (placeholder for now) -->
+  <div class="col-md-4 d-flex">
+    <article class="card card-blog w-100">
+      <a class="card-img" href="#" aria-disabled="true" onclick="return false;">
+        <span class="tag-ribbon">ML</span>
+        <img src="assets/img/blog/ml.jpg"
+             alt="Introduction to machine learning" loading="lazy">
+      </a>
+      <div class="card-body">
+        <div class="card-category-box">
+          <div class="card-category"><h6 class="category">Machine Learning</h6></div>
+        </div>
+        <h3 class="card-title"><a href="#" aria-disabled="true" onclick="return false;">Introduction to Machine Learning</a></h3>
+        <p class="card-description">A beginner’s guide to fundamentals and practical use-cases. (Publishing soon.)</p>
+      </div>
+      <div class="card-footer">
+        <div class="post-author">
+          <a href="#">
+            <img src="assets/img/testimonial-2.jpg" alt="" class="avatar rounded-circle">
+            <span class="author">Sai Kiran Siddhabathula</span>
+          </a>
+        </div>
+        <div class="platform">
+          <img src="https://logo.clearbit.com/medium.com" alt="">
+          Draft
+        </div>
+      </div>
+      <div class="card-footer" style="padding-top:0;">
+        <a class="btn-read" href="#" aria-disabled="true" onclick="return false;">Read</a>
+      </div>
+    </article>
+  </div>
+
+</div>
+
+  </div>
+</section>
+<!-- End Blog Section -->
+
 
 
   <!-- ======= Contact Section ======= -->
@@ -855,6 +1429,61 @@
   });
   </script>
   
+
+<script>
+  // simple filter
+  document.querySelectorAll('.project-filter').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const tag = btn.dataset.tag;
+      document.querySelectorAll('.project-filter').forEach(b => b.classList.remove('active'));
+      btn.classList.add('active');
+      document.querySelectorAll('.project-item').forEach(card => {
+        if (tag === 'all' || card.dataset.tags.includes(tag)) card.classList.remove('hidden');
+        else card.classList.add('hidden');
+      });
+    });
+  });
+</script>
+
+
+<script>
+  // Swiper init (make sure Swiper JS/CSS are included on the page)
+  if (window.Swiper) {
+    new Swiper('.cert-swiper', {
+      slidesPerView: 1,
+      spaceBetween: 24,
+      loop: false,
+      keyboard: { enabled: true },
+      mousewheel: { forceToAxis: true },
+      pagination: { el: '.cert-swiper-pagination', clickable: true },
+      navigation: { nextEl: '.cert-swiper-next', prevEl: '.cert-swiper-prev' },
+      breakpoints: {
+        576: { slidesPerView: 2 },
+        992: { slidesPerView: 3 }
+      }
+    });
+  }
+
+  // Modal image loader (requires Bootstrap bundle JS)
+  const certModalEl = document.getElementById('certModal');
+  if (certModalEl) {
+    certModalEl.addEventListener('show.bs.modal', function (event) {
+      const btn = event.relatedTarget;
+      const imgSrc = btn?.getAttribute('data-image');
+      const title  = btn?.getAttribute('data-title') || 'Certification';
+      const imgEl  = document.getElementById('certModalImg');
+      const titleEl= document.getElementById('certModalLabel');
+      if (imgEl && imgSrc) { imgEl.src = imgSrc; imgEl.alt = title; }
+      if (titleEl) titleEl.textContent = title;
+    });
+    certModalEl.addEventListener('hidden.bs.modal', function () {
+      const imgEl = document.getElementById('certModalImg');
+      if (imgEl) imgEl.src = '';
+    });
+  }
+</script>
+
+
 
 </body>
 
